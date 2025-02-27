@@ -125,7 +125,7 @@ const INITIAL_CONVERSATIONS: Record<string, Message[]> = {
     },
     {
       id: '102',
-      content: 'Sure, I'll review them today.',
+      content: "Sure, I'll review them today.",
       timestamp: new Date(Date.now() - 1000 * 60 * 25),
       senderId: 'current',
     },
@@ -145,13 +145,13 @@ const INITIAL_CONVERSATIONS: Record<string, Message[]> = {
     },
     {
       id: '104',
-      content: 'I like the overall direction. The typography works well with the brand. I'd suggest making the primary CTA buttons a bit more prominent.',
+      content: "I like the overall direction. The typography works well with the brand. I'd suggest making the primary CTA buttons a bit more prominent.",
       timestamp: new Date(Date.now() - 1000 * 60 * 15),
       senderId: 'current',
     },
     {
       id: '105',
-      content: 'That makes sense. I'll increase the contrast and size slightly. Here's the updated file:',
+      content: "That makes sense. I'll increase the contrast and size slightly. Here's the updated file:",
       timestamp: new Date(Date.now() - 1000 * 60 * 10),
       senderId: '1',
       attachments: [
@@ -168,7 +168,7 @@ const INITIAL_CONVERSATIONS: Record<string, Message[]> = {
   '2': [
     {
       id: '201',
-      content: 'The client report is ready. I've included all the performance metrics we discussed.',
+      content: "The client report is ready. I've included all the performance metrics we discussed.",
       timestamp: new Date(Date.now() - 1000 * 60 * 60 * 5),
       senderId: '2',
       attachments: [
@@ -189,7 +189,7 @@ const INITIAL_CONVERSATIONS: Record<string, Message[]> = {
     },
     {
       id: '203',
-      content: 'Yes, there's a dedicated section on page 5 that directly addresses those points with the updated metrics.',
+      content: "Yes, there's a dedicated section on page 5 that directly addresses those points with the updated metrics.",
       timestamp: new Date(Date.now() - 1000 * 60 * 60 * 3),
       senderId: '2',
     }
@@ -197,7 +197,7 @@ const INITIAL_CONVERSATIONS: Record<string, Message[]> = {
   '3': [
     {
       id: '301',
-      content: 'The marketing team needs to reschedule tomorrow's meeting. Are you available on Friday instead?',
+      content: "The marketing team needs to reschedule tomorrow's meeting. Are you available on Friday instead?",
       timestamp: new Date(Date.now() - 1000 * 60 * 60 * 24 * 2),
       senderId: '3',
     },
@@ -209,7 +209,7 @@ const INITIAL_CONVERSATIONS: Record<string, Message[]> = {
     },
     {
       id: '303',
-      content: 'Yes, 2pm. I'll update the calendar invite.',
+      content: "Yes, 2pm. I'll update the calendar invite.",
       timestamp: new Date(Date.now() - 1000 * 60 * 60 * 24 * 2 + 1000 * 60 * 30),
       senderId: '3',
     }
