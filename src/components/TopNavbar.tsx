@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, LogOut, MessageSquare, FileText, BarChart2, Trello, Search, ZoomIn } from 'lucide-react';
+import NotificationDropdown from './NotificationDropdown';
 
 const TopNavbar = () => {
   const location = useLocation();
@@ -70,6 +71,8 @@ const TopNavbar = () => {
               <Search className="w-5 h-5" />
             </button>
           )}
+
+          <NotificationDropdown />
 
           <Link
             to="/logout"
